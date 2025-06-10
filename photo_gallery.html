@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display:flex;
+            flex-wrap: wrap;
+            justify-content: center;
+
+        }
+        h1{
+            width: 100%;
+            text-align: center;
+        }
+        img{
+            width: 200px;
+            height: 200px;
+        }
+        .image_cont{
+            width: 450px;
+            height: 250x;
+            justify-content: center;
+            align-items: center;
+        }
+        @media(min-width:600px){
+            .container{
+                justify-content: center;
+                align-content: center;
+                align-items: center;
+                /* margin-left: 30px; */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="out">
+        <h1>Gallery</h1>
+    </div>
+    <div class="container">
+        <div class="image_cont">
+            <img src="./images/a1.png" alt="1st anime">
+            <p>1st image ghibli art</p>
+        </div>
+        <div class="image_cont">
+            <img src="./images/a2.png" alt="2nd anime">
+            <p>2nd image ghibli art</p>
+        </div>
+        <div class="image_cont">
+            <img src="./images/a6.png" alt="3rd anime">
+            <p>3rd image ghibli art</p>
+        </div>
+        <div class="image_cont">
+            <img src="./images/c1.jpg" alt="1st real">
+            <p>1st image</p>
+        </div>
+        <div class="image_cont">
+            <img src="./images/c2.jpg" alt="2nd real">
+            <p>2nd image</p>
+        </div><div class="image_cont">
+            <img src="./images/c4.jpg" alt="3rd real">
+            <p>3rd image</p>
+        </div>
+    </div>
+</body>
+</html>
